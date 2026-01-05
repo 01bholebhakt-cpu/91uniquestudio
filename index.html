@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>91UniquePhotography | Luxury Indian Wedding Films & Photography</title>
+
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- TAILWIND -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        dark: '#0B0B0B',
+        charcoal: '#141414',
+        gold: '#9E8355'
+      },
+      fontFamily: {
+        royal: ['Cinzel', 'serif'],
+        body: ['Manrope', 'sans-serif']
+      }
+    }
+  }
+}
+</script>
+
+<style>
+body { background:#0B0B0B; color:#f1f1f1; overflow-x:hidden; }
+.hero-slide {
+  position:absolute; inset:0;
+  background-size:cover; background-position:center;
+  opacity:0; transition:opacity 1.6s ease, transform 10s ease;
+}
+.hero-slide.active { opacity:.7; transform:scale(1.08); }
+.gold { color:#9E8355 }
+.btn {
+  border:1px solid #9E8355;
+  padding:.9rem 1.8rem;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  font-size:.75rem;
+  transition:.3s;
+}
+.btn:hover { background:#9E8355; color:#0B0B0B }
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-dark/80 backdrop-blur border-b border-white/5">
+  <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+    <h1 class="font-royal text-xl tracking-widest gold">91UniquePhotography</h1>
+    <div class="hidden md:flex space-x-8 text-xs tracking-widest">
+      <a href="#studio" class="hover:text-gold">STUDIO</a>
+      <a href="#showcase" class="hover:text-gold">SHOWCASE</a>
+      <a href="#love" class="hover:text-gold">LOVE NOTES</a>
+      <a href="https://wa.me/9101074720" class="btn">BOOK DATE</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+  <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=2000&auto=format&fit=crop')"></div>
+  <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2000&auto=format&fit=crop')"></div>
+  <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1623692888636-f0464d39c0d9?q=80&w=2000&auto=format&fit=crop')"></div>
+
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative z-10 max-w-3xl px-6" data-aos="fade-up">
+    <h2 class="font-royal text-5xl md:text-7xl mb-6 tracking-wide">
+      Preserving the <span class="gold">Magic</span>
+    </h2>
+    <p class="text-white/70 text-sm md:text-base mb-10">
+      Cinematic wedding films & photography crafted for couples who value legacy, luxury and timeless storytelling.
+    </p>
+    <a href="https://wa.me/9101074720" class="btn">Reserve Your Wedding</a>
+  </div>
+</header>
+
+<!-- STUDIO -->
+<section id="studio" class="py-32 bg-charcoal">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+    <div data-aos="fade-right">
+      <p class="gold text-xs tracking-widest mb-4">THE STUDIO</p>
+      <h3 class="font-royal text-4xl mb-6">More Than Photography.</h3>
+      <p class="text-white/70 text-sm leading-relaxed">
+        91UniquePhotography is a luxury wedding studio led by Abdullah SK.  
+        We document emotions, rituals and grandeur with a cinematic eye — designed for couples who want their wedding remembered as art, not content.
+      </p>
+      <p class="gold text-sm mt-4">“Every wedding we capture is a timeless story — Abdullah SK, Founder”</p>
+    </div>
+    <img data-aos="fade-left" src="https://images.unsplash.com/photo-1583934555026-67b5fb2e9d51?q=80&w=1200&auto=format&fit=crop" class="rounded-lg">
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section id="showcase" class="py-32 bg-dark">
+  <div class="text-center mb-16">
+    <h3 class="font-royal text-4xl mb-3">Showcase</h3>
+    <p class="text-white/50 text-sm tracking-widest uppercase">Signature Visual Stories</p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 max-w-7xl mx-auto">
+    <img class="h-72 w-full object-cover" src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop">
+    <img class="h-72 w-full object-cover" src="https://images.unsplash.com/photo-1605300228308-4e67277494f1?q=80&w=1200&auto=format&fit=crop">
+    <img class="h-72 w-full object-cover" src="https://images.unsplash.com/photo-1621621667797-e06afc21085c?q=80&w=1200&auto=format&fit=crop">
+  </div>
+</section>
+
+<!-- LOVE NOTES -->
+<section id="love" class="py-28 bg-charcoal">
+  <div class="text-center mb-14">
+    <h3 class="font-royal text-4xl">Love Notes</h3>
+    <p class="text-white/50 text-xs tracking-widest mt-2">FROM OUR COUPLES</p>
+  </div>
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 px-6">
+    <div class="border border-white/10 p-8">
+      <p class="text-white/70 italic mb-4">“Every frame felt like a movie. Worth every penny.”</p>
+      <span class="gold text-sm">— Ananya & Rohan</span>
+    </div>
+    <div class="border border-white/10 p-8">
+      <p class="text-white/70 italic mb-4">“Not photographers, they are storytellers.”</p>
+      <span class="gold text-sm">— Priya & Arjun</span>
+    </div>
+  </div>
+</section>
+
+<!-- BIG FOOTER -->
+<footer class="bg-dark pt-24 pb-12 border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16">
+    
+    <div>
+      <h4 class="font-royal text-2xl gold mb-4">91UniquePhotography</h4>
+      <p class="text-white/60 text-sm">
+        Luxury Indian wedding photography & films.  
+        Based in Jogighopa, Bongaigaon, Assam. Available worldwide.
+      </p>
+    </div>
+
+    <div>
+      <h5 class="gold text-xs tracking-widest mb-4">THE STUDIO</h5>
+      <ul class="text-white/60 text-sm space-y-2">
+        <li>Pre-Weddings</li>
+        <li>Weddings</li>
+        <li>Rice Ceremony</li>
+        <li>Birthday & Ring Ceremony</li>
+        <li>Cinematic Videography</li>
+        <li>Drone Fly & Album Shoot</li>
+      </ul>
+    </div>
+
+    <div>
+      <h5 class="gold text-xs tracking-widest mb-4">CONNECT</h5>
+      <p class="text-white/60 text-sm mb-3">Abdullah SK — Founder</p>
+      <p class="text-white/60 text-sm mb-1">Contact: +91 91010 74720</p>
+      <p class="text-white/60 text-sm mb-3">Email: abdullahsk00000@gmail.com</p>
+      <a href="https://wa.me/9101074720" class="btn mb-2">WhatsApp Now</a><br>
+      <a href="https://www.instagram.com/abdullahsk000002022" class="btn mb-2">Instagram</a><br>
+      <a href="https://www.facebook.com/profile.php?id=61556662426753" class="btn">Facebook</a>
+    </div>
+
+  </div>
+
+  <div class="text-center text-white/30 text-xs tracking-widest mt-16">
+    © 2026 91UniquePhotography. Crafted for luxury weddings.
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({ once:true, duration:1000 });
+
+const slides=document.querySelectorAll('.hero-slide');
+let i=0;
+setInterval(()=>{
+slides[i].classList.remove('active');
+i=(i+1)%slides.length;
+slides[i].classList.add('active');
+},3000);
+</script>
+
+</body>
+</html>
